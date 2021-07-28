@@ -1,4 +1,3 @@
-def ip = "python findingip.py".execute()
 pipeline
 {
 	agent any
@@ -7,7 +6,7 @@ pipeline
 		{
 			steps{
 				script{
-					def cmdarray=["python", "C:\\Users\\vs255034\OneDrive - Teradata\\Desktop\\new\\findingip.py", path]
+					def cmdarray=["python", "C:\\Users\\vs255034\OneDrive - Teradata\\Desktop\\new\\findingip.py"]
 					cmdarray.execute()	
 					}
 				}
