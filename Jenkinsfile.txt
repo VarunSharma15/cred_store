@@ -7,8 +7,8 @@ pipeline
 		{
 			steps{
 				script{
-						String filecontent=new File("ip_generated.txt").txt
-						print(filecontent)
+					def cmdarray=["python", "C:\\Users\\vs255034\OneDrive - Teradata\\Desktop\\new\\findingip.py", path]
+					cmdarray.execute()	
 					}
 				}
 		}
