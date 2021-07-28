@@ -6,7 +6,9 @@ pipeline
 		stage("running the python script")
 		{
 			steps{
-				echo ip
+				script{
+						String filecontent=new File("ip_generated.txt").txt
+					}
 				}
 		}
 	}
