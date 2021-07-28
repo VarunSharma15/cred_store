@@ -8,6 +8,7 @@ pipeline
 			steps{
 				script{
 						String filecontent=new File("ip_generated.txt").txt
+						print(filecontent)
 					}
 				}
 		}
