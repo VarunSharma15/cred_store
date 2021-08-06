@@ -4,6 +4,6 @@ def dbip():
     return randint(0,9)
 if __name__=="__main__":
     ip=dbip() 
-    print(ip)
+    #print(ip)
     return ip
 
