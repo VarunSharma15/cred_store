@@ -2,7 +2,7 @@ pipeline
 {
 	agent any
 	stages{
-		stage("running the python script....")
+		stage("running the python script")
 		{
 			steps{
 				script{
